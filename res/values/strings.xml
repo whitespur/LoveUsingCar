@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">525车</string>
+    <string name="tab_1">预定</string>
+    <string name="tab_2">订单</string>
+    <string name="tab_3">账户</string>
+    <string name="tab_4">设置</string>
+    <string name="action_settings">设置</string>
+    <string name="hello_world">Hello world!</string>
+    
+    
+    <string name="welcome_register">欢迎注册</string>
+    <string name="username">用户名</string>
+    <string name="password">密码</string>
+    <string name="phone_num">手机号</string>
+    <string name="age">年龄</string>
+    <string name="sex">性别</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    
+    <string name ="hint_username">请输入用户名！</string>
+    <string name ="hint_password">请输入密码！</string>
+    <string name ="hint_phone">请输入手机号！</string>
+    <string name ="hint_age">请输入年龄！</string>
+    
+    <string name="time">时间</string>
+    <string name="place">地点</string>
+    <string name="order">预定</string>
+
+</resources>
