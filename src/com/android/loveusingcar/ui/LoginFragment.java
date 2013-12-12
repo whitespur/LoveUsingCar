@@ -1,5 +1,5 @@
 
-package com.android.loveusingcar;
+package com.android.loveusingcar.ui;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -14,6 +14,8 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import com.android.loveusingcar.R;
 
 
 public class LoginFragment extends Fragment {

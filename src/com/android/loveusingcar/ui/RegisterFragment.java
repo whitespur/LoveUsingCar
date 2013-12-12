@@ -1,5 +1,5 @@
 
-package com.android.loveusingcar;
+package com.android.loveusingcar.ui;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -17,6 +17,8 @@ import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
+
+import com.android.loveusingcar.R;
 
 
 public class RegisterFragment extends Fragment {

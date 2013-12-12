@@ -2,7 +2,7 @@
  * 
  */
 
-package com.android.loveusingcar;
+package com.android.loveusingcar.ui;
 
 import java.util.TimeZone;
 
@@ -30,6 +30,8 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.TimePicker;
 import android.widget.Toast;
+
+import com.android.loveusingcar.R;
 
 
 

@@ -1,4 +1,4 @@
-package com.android.loveusingcar;
+package com.android.loveusingcar.ui;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,6 +22,8 @@ import android.view.animation.Animation;
 import android.view.animation.TranslateAnimation;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.android.loveusingcar.R;
 
 public class MainActivity extends FragmentActivity {
     private static final String TAG = "MainActivity";
@@ -67,15 +69,25 @@ public class MainActivity extends FragmentActivity {
 
         Fragment activityfragment = TestFragment.newInstance("Hello Activity.");
 
-        LoginFragment loginFragment = new LoginFragment();
-        RegisterFragment registerFragment = new RegisterFragment();
+        
+        //LoginFragment loginFragment = new LoginFragment();
+        //RegisterFragment registerFragment = new RegisterFragment();
+        
         OrderCoachFragment orderCoachFragment = new OrderCoachFragment();
+        OrderInfoFragmen orderInfoFragmen = new OrderInfoFragmen();
+        AccountInfoFragment accountInfoFragment = new AccountInfoFragment();
+        SettingsFragment settingsFragment = new SettingsFragment();
+        
         
         fragmentsList.add(orderCoachFragment);
-        fragmentsList.add(loginFragment);
-        fragmentsList.add(registerFragment);
+        fragmentsList.add(orderInfoFragmen);
+        fragmentsList.add(accountInfoFragment);
+        fragmentsList.add(settingsFragment);
         
-        fragmentsList.add(activityfragment);
+        //fragmentsList.add(loginFragment);
+        //fragmentsList.add(registerFragment);
+        
+        //fragmentsList.add(activityfragment);
         
         
         mPager.setAdapter(new MyFragmentPagerAdapter(getSupportFragmentManager(), fragmentsList));

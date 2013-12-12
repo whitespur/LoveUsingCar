@@ -1,4 +1,4 @@
-package com.android.loveusingcar;
+package com.android.loveusingcar.ui;
 
 
 import android.os.Bundle;
@@ -8,6 +8,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import com.android.loveusingcar.R;
 
 public class TestFragment extends Fragment {
     private static final String TAG = "TestFragment";
