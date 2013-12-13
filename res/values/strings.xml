@@ -2,7 +2,7 @@
 <resources>
 
     <string name="hello">Hello World, MainActivity!</string>
-    <string name="app_name">525车</string>
+    <string name="app_name">i用车</string>
     <string name="tab_1">预定</string>
     <string name="tab_2">订单</string>
     <string name="tab_3">账户</string>

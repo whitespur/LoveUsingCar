@@ -14,13 +14,12 @@ import com.android.loveusingcar.R;
 
 
 public class AccountInfoFragment extends Fragment {
-    TextView trainTime;
-    TextView place;
-    TextView bookTime;
-    TextView money;
-    TextView status;
+    TextView usernameTV;
+    TextView phoneTV;
+    TextView ageTV;
+    TextView sexTV;
     private View view;
-    private static final String TAG = "OrderInfoFragmen";
+    private static final String TAG = "AccountInfoFragment";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -32,11 +31,10 @@ public class AccountInfoFragment extends Fragment {
         // TODO Auto-generated method stub
         if(null == view){
             view = inflater.inflate(R.layout.account_info, container,false);
-            trainTime = (TextView) view.findViewById(R.id.train_time);
-            place = (TextView) view.findViewById(R.id.place);
-            bookTime = (TextView) view.findViewById(R.id.book_time);
-            money = (TextView) view.findViewById(R.id.money);
-            status = (TextView) view.findViewById(R.id.order_status);
+            usernameTV = (TextView) view.findViewById(R.id.account_username);
+            phoneTV = (TextView) view.findViewById(R.id.account_phone);
+            ageTV = (TextView) view.findViewById(R.id.account_age);
+            sexTV = (TextView) view.findViewById(R.id.account_sex);
         }else{
             ViewGroup parent = (ViewGroup) view.getParent();
             parent.removeView(view);

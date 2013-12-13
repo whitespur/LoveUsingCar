@@ -14,11 +14,13 @@ import com.android.loveusingcar.R;
 
 
 public class SettingsFragment extends Fragment {
-    TextView trainTime;
-    TextView place;
-    TextView bookTime;
-    TextView money;
-    TextView status;
+    TextView about;
+    TextView problem;
+    TextView clause;
+    TextView helper;
+    TextView version;
+    TextView contact;
+    Button exit;
     private View view;
     private static final String TAG = "OrderInfoFragmen";
 
@@ -32,11 +34,12 @@ public class SettingsFragment extends Fragment {
         // TODO Auto-generated method stub
         if(null == view){
             view = inflater.inflate(R.layout.settings, container,false);
-            trainTime = (TextView) view.findViewById(R.id.train_time);
-            place = (TextView) view.findViewById(R.id.place);
-            bookTime = (TextView) view.findViewById(R.id.book_time);
-            money = (TextView) view.findViewById(R.id.money);
-            status = (TextView) view.findViewById(R.id.order_status);
+            about = (TextView) view.findViewById(R.id.about);
+            problem = (TextView) view.findViewById(R.id.problem);
+            clause = (TextView) view.findViewById(R.id.clause);
+            helper = (TextView) view.findViewById(R.id.helper);
+            version = (TextView) view.findViewById(R.id.version);
+            exit = (Button) view.findViewById(R.id.exit);
         }else{
             ViewGroup parent = (ViewGroup) view.getParent();
             parent.removeView(view);
